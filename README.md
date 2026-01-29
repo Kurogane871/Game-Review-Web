@@ -20,4 +20,9 @@ I have examples of listing your favorite games and which company publishes them 
     </h2>
     A list is appropriate for your favorite games to put on and you can select them to rate and write a review.
     https://opencritic.com/ THis link is a good example for what I'm going for.
+    Design Choices:
+       I think I currently like the the word fonts.
+       I desire to make it actually look like a game review site. At its current state, it's bland
+       The fonts, and maybe the image styling.
+
     
