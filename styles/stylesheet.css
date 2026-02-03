@@ -1,3 +1,25 @@
 body {
-   background: #bd00fc;
+   background: #6100fc39;
+   text-align: center;
+}
+p {
+   color: blue;
+   font-family: Arial, sans-serif;
+}
+#IDSelector {
+   font-family: 'Courier New', Courier, monospace;
+   color: rgb(255, 0, 247);
+}
+.ClassSelector {
+   font-family: 'Times New Roman', Times, serif;
+   color: rgb(36, 0, 128);
+}h1 {
+   color: rgb(187, 0, 255);
+}
+p ul {
+   text-align: left;
+}
+img {
+   width: 300px;
+   height: auto;
 }
