@@ -23,3 +23,47 @@ img {
    width: 300px;
    height: auto;
 }
+
+.leftside {
+   width: 450px;
+   height: 450px;
+   background-color: rgb(21, 0, 255);
+   float: left;
+   padding: 10px;
+   margin: 10px;
+   border-width: 20px;
+   border-color: rgb(255, 0, 247);
+   border-style: solid;
+   
+}
+
+.rightside {
+   width: 450px;
+   height: 450px;
+   background-color: #462246;
+   float: right;
+   padding: 10px;
+   margin: 10px;
+   border-width: 20px;
+   border-color: rgb(255, 0, 247);
+   border-style: solid;
+}
+
+.midside {
+   width: 450px;
+   height: 450px;
+   background-color: #ff00f7;
+   float: left;
+   padding: 10px;
+   margin: 10px;
+   border-width: 20px;
+   border-color: rgb(255, 0, 247);
+   border-style: solid;
+   background-image: url('https://www.vecteezy.com/video/35158342-loop-background-neon-retro-wave-80s-style');
+}
+
+   #second-page-body  .container {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 20px;
+   }
