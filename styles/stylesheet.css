@@ -67,3 +67,55 @@ img {
    grid-template-columns: 1fr 1fr 1fr;
    gap: 20px;
    }
+
+   .navbar {
+   background: black;
+   color: white;
+   padding: 12px 20px;
+
+   display : flex;
+   justify-content: space-between;
+   }
+
+   .nav-brand {
+   font-size: 24px;
+   font-weight: bold;
+   }
+
+   .nav-list {
+   list-style: none;
+   display: flex;
+   gap: 15px;
+   margin: 0px;
+   padding: 0px;
+   }
+
+   .hamburger {
+   display: none;
+   font-size: 1.8rem;
+   background: none;
+   color: white;
+   cursor: pointer;
+   }
+
+   @media (max-width: 750px) {
+    .hamburger {
+        display: block;
+    }
+    
+    .nav-list {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background: black;
+
+        flex-direction: column;
+        align-items: center;
+        display: none;
+    }
+
+    .nav-list.active {
+        display: flex;
+    }
+}
