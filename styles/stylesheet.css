@@ -67,8 +67,20 @@ img {
    min-height: 100vh;
    justify-content: space-between;
    gap: 20px;
+   background-image: url("background.jpg"); 
+   background-repeat: no-repeat;            
+   background-size: cover;                  
+   background-position: center;             
+   background-attachment: fixed;            
+   background-color: #cccccc;
    }
+   .PlaystationContainer {
+   color: #fbfbfb;;
+}
 
+   .PlaystationBody {
+   background-image: url("https://images3.alphacoders.com/552/thumb-1920-552489.jpg");
+   }
    #Nintendo .container {
    min-height: 100vh;
    justify-content: space-between;
