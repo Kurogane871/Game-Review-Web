@@ -87,6 +87,20 @@ img {
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
    gap: 20px;
+   background-image: url("background.jpg"); 
+   background-repeat: no-repeat;            
+   background-size: cover;                  
+   background-position: center;             
+   background-attachment: fixed;            
+   background-color: #cccccc;
+   }
+
+   .NintendoContainer {
+   color: #fbfbfb;;
+   }
+
+   .NintendoBody {
+   background-image: url("https://static0.gamerantimages.com/wordpress/wp-content/uploads/2025/07/pikachu-and-mario-with-white-nintendo-logo-on-red-background.jpg?w=1600&h=1200&fit=crop");
    }
 
    #Xbox .container {
@@ -94,6 +108,14 @@ img {
    min-height: 100vh;
    justify-content: space-between;
    gap: 20px;
+   }
+
+   .XboxContainer {
+   color: #fbfbfb;;
+   }
+
+   .XboxBody {
+   background-image: url("https://wallpapers.com/images/featured/xbox-background-8rgbpkrlc22ognhl.jpg");
    }
 
    #Gacha .container {
