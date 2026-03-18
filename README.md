@@ -25,4 +25,13 @@ I have examples of listing your favorite games and which company publishes them 
        I desire to make it actually look like a game review site. At its current state, it's bland
        The fonts, and maybe the image styling.
 
+       The pages in the web currently are the following (There are other game sections to be added.):
+       -index.html: That's the primary structure.
+       -AboutMe.html: That's the bio.
+       -nav.html: That puts up a nav bar.
+       -Xbox.html: That page is Xbox focused in games to review.
+       -Playstation.html: That page is Playstation focused in games to review.
+       -Nintendo.html: That page is Nintendo focused in games to review.
+       -Gacha.html: That page is centered on free to play games with in app purchases.
+
     
