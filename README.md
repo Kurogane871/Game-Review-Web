@@ -33,5 +33,7 @@ I have examples of listing your favorite games and which company publishes them 
        -Playstation.html: That page is Playstation focused in games to review.
        -Nintendo.html: That page is Nintendo focused in games to review.
        -Gacha.html: That page is centered on free to play games with in app purchases.
+       -stylesheet.css: That styles the websites depending on what the hand does. The yang to the yin.
+       -JavaScripts.js: That fishes for information to put within the program.
 
     
